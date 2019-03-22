@@ -100,13 +100,13 @@
         "defaultInterval": 200
     },
     "dbConfig": {
-        "user": "phruser",
-        "password": "phruser",
-        "server": "172.20.11.54",
-        "port": 55407,
-        "database": "DEVMAH"
+        "user": "xxxx",
+        "password": "xxxx",
+        "server": "1.1.1.1",
+        "port": 1111,
+        "database": "abc"
     },
     "esbClient":{
-        "wsdl": "http://esbphr.azprd.ahmcert.com:6666/PHRPortal/ActiveServiceFacade?wsdl"
+        "wsdl": "http://xyz.com?wsdl"
     }
 }
