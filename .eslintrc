@@ -1,0 +1,22 @@
+{
+    "extends": [
+        "./eslint/best-practices.js",
+        "./eslint/errors.js",
+        "./eslint/node.js",
+        "./eslint/strict.js",
+        "./eslint/style.js",
+        "./eslint/variables.js",
+        "./eslint/es6.js"
+    ],
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "mocha": true,
+        "jasmine": false
+    },
+    "ecmaFeatures": {},
+    "globals": {},
+    "rules": {
+    }
+}
