@@ -1,0 +1,7 @@
+{
+  "skip": false,
+  "basePath": "/esb",
+  "routeModules": [
+    { "path": "/gethealthaction", "module": "v1/esb-api", "queryDefs": "esb-api" }
+  ]
+}

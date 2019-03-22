@@ -1,0 +1,11 @@
+{
+  "skip": false,
+  "basePath": "/ods",
+  "routeModules": [
+    { "path": "/getMemberDetails", "module": "v1/ods/ods-api", "queryDefs": "ods-api" },
+    { "path": "/getMemberData", "module": "v1/ods/ods-api", "queryDefs": "ods-api" },
+    { "path": "/crosswalk", "module": "v1/ods/ods-api", "queryDefs": "ods-api" },
+    { "path": "/getMemberResponse", "module": "v1/ods/ods-api", "queryDefs": "ods-api" },
+    { "path": "/getHRA", "module": "v1/ods/ods-api", "queryDefs": "ods-api" }
+  ]
+}

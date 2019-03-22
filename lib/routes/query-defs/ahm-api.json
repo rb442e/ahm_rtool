@@ -1,0 +1,39 @@
+{
+    "defaults": {
+        "languageCode": "EN"
+    },
+    "monitoredEvents":{
+        "mahQuery":"members/&/monitored-events",
+        "languageCode":"EN"
+    },
+    "healthAssessments":{
+        "mahQuery":"members/&/health-assessments",
+        "languageCode":"EN"
+    },
+
+    "heartBalance":{
+      "mahQuery":"members/&/heartBalance",
+      "languageCode":"EN"
+    },
+
+  "behaviors":{
+    "mahQuery":"members/&/behaviors",
+    "languageCode":"EN"
+  },
+  "goals":{
+    "mahQuery":"members/&/behaviors",
+    "languageCode":"EN"
+  },
+
+  "activities":{
+    "mahQuery":"members/&/activities/#activityId/instance/#instance",
+    "languageCode":"EN"
+  },
+  "authApi":{
+    "mahQuery":"members/&/activities/#activityId/instance/#instance",
+    "languageCode":"EN"
+  },
+  "aetna":{
+
+  }
+}

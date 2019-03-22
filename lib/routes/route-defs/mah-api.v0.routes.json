@@ -1,0 +1,17 @@
+{
+  "skip": false,
+  "basePath": "",
+  "routeModules": [
+    { "path": "/health-assessments", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/monitored-events", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/heartBalance", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/mobile-members", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/behaviors", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/goals", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/activities", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/heartBalance", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/nurse", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/trackers", "module": "v1/ahm-api", "queryDefs": "ahm-api" },
+    { "path": "/auth-api", "module": "v1/login/authenticateUser", "queryDefs": "ahm-api" }
+  ]
+}

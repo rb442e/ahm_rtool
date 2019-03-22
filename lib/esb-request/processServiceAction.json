@@ -1,0 +1,41 @@
+{
+        "ServiceMsg": [{
+            "header": [{
+                "msg_id": ["Msg1"],
+                "correlation_id": [1],
+                "msg_version": [{
+                    "major": [1],
+                    "minor": [0]
+                }],
+                "requires_confirmation": [false],
+                "creation_time": ["2011-06-10"],
+                "expires": [0],
+                "fragment": [],
+                "reply_to": [],
+                "service": [{
+                    "provider": ["AHM"],
+                    "name": ["GetMarkersForMember"],
+                    "version": [{
+                        "major": [1],
+                        "minor": [0]
+                    }]
+                }],
+                "topic": ["Process_Service"],
+                "priority": [false],
+                "sender": [{
+                    "account_id": ["58445854"],
+                    "source_system_name": ["CT"],
+                    "user_provider_org_id": ["58445854"],
+                    "user_id": ["53675000"],
+                    "user_type": ["P"]
+                }],
+                "delivery_mode": [],
+                "response_status": [{
+                    "status": []
+                }]
+            }],
+            "payload": [{
+                "body": "<![CDATA[<GetMarkersForMemberRequest><MemberPlanID>1125680826</MemberPlanID><SystemSource>PHR_UE</SystemSource><EvidenceRowLimit>5</EvidenceRowLimit><ProductCd>MHP</ProductCd><MemberLangPref>EN</MemberLangPref><AllSummaryFlag>S</AllSummaryFlag></GetMarkersForMemberRequest>]]>"
+            }]
+        }]
+}

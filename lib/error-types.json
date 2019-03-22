@@ -1,0 +1,21 @@
+{
+    "client": {
+        "badRoute": "BadRoute",
+        "requestContentTypes": "RequestContentTypes",
+        "acceptContentTypes": "AcceptContentTypes",
+        "solrWtParamType": "SolrWtParamType",
+        "invalidSearch": "InvalidSearch",
+        "invalidAppId": "InvalidAppId",
+        "solrQueryVarNotReplaced": "SolrQueryVarNotReplaced"
+    },
+    "server": {
+        "invalidRouteModule": "InvalidRouteModule",
+        "searchDisabled": "SearchDisabled",
+        "appConfig": "AppConfigError",
+        "fusionFailure": "FusionFailure",
+        "invalidFusionResponse": "InvalidFusionResponse",
+        "invalidSolrResponse": "InvalidSolrResponse",
+        "solrErrorRetry": "SolrErrorRetry",
+        "solrFailure": "SolrFailure"
+    }
+}

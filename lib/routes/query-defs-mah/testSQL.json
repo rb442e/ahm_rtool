@@ -1,0 +1,1 @@
+SELECT * FROM ods.member WHERE memberId = :id

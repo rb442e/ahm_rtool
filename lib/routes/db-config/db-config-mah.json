@@ -1,0 +1,28 @@
+{
+    "dev": {
+        "user": "phruser",
+        "password": "phruser",
+        "server": "172.20.11.54",
+        "port": 55407,
+        "database": "DEVMAH"
+    },
+    "pre-prod":{
+        "user": "SVC_PHRPreProd",
+        "password": "PHR_2k8@2013",
+        "server": "172.20.11.60",
+        "port": 58158,
+        "database": "PHRActiveHealth"
+    },
+    "prod":{
+        "user": "SVC_PHRPrd_User",
+        "password": "$vc_P2o13#",
+        "server": "172.18.178.85",
+        "port": 1433,
+        "database": "PHRActiveHealth",
+        "pool": {
+            "max": 10,
+            "min": 0,
+            "idleTimeoutMillis": 30000
+        }
+    }
+}

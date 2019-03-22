@@ -1,0 +1,17 @@
+{
+    "INVALID_ROUTE_MODULE": "Invalid Route Module",
+    "FUSION_FAILURE": "Fusion Request Failure",
+    "SOLR_ERROR_RETRY": "SolrCloud Request Error - Retrying",
+    "SOLR_FAILURE": "SolrCloud Request Failure",
+    "PRE_SEARCH": "Search Pre-Processing Failure",
+    "APP_FAILURE": "Server Error",
+    "REQUEST_CONTENT_TYPES": "Unsupported Media Type",
+    "ACCEPT_CONTENT_TYPES": "Not Acceptable Type",
+    "ACCEPT_SOLR_WT_TYPES": "Not Acceptable Solr wt param value",
+    "INVALID_SEARCH": "Invalid Search Request",
+    "INVALID_APP_ID": "Missing or Invalid Application ID",
+    "ROUTE_NOT_FOUND": "Route Not Found Error",
+    "SEARCH_DISABLED": "DE Search Disabled",
+    "APP_CONFIG_ERROR": "App Configuration Error",
+    "SOLR_QUERY_VAR_FAILURE": "Solr Query Variable Replacement Failure"
+}

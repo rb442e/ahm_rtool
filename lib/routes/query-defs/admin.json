@@ -1,0 +1,16 @@
+{
+    "healthcheck": {
+        "pipelineId": "query_simple",
+        "collectionName": "test_public",
+        "handler": "select",
+        "solrQuery": {
+            "q": "iphone",
+            "start": 0,
+            "rows": 1,
+            "defType": "edismax",
+            "wt": "json",
+            "debug": false,
+            "echoParams": "none"
+        }
+    }
+}
