@@ -1,0 +1,112 @@
+{
+    "app": {
+        "name": "AHM API",
+        "alias": "ahm-api",
+        "appLibDir": "lib",
+        "context": "/ahm",
+        "queryDefinitionDir": "lib/routes/query-defs",
+        "routeDefinitionDir": "lib/routes/route-defs",
+        "routeMatcher": "*.routes.json",
+        "routeModuleDir": "lib/routes",
+        "defaultSearchType": "restClient"
+    },
+    "server": {
+        "ports": {
+            "http": 4002,
+            "https": 3443
+        }
+    },
+    "express": {
+        "case sensitive routing": true,
+        "etag": false,
+        "strict routing": false,
+        "x-powered-by": false
+    },
+    "security": {
+        "logBadKeys": true,
+        "logBadValues": true
+    },
+    "admin": {
+        "basePath": "/admin",
+        "pingPath": "/ping",
+        "healthCheckPath": "/healthcheck",
+        "appControlPath": "/app-control",
+        "healthCheckQueryName": "healthcheck",
+        "pingMsg": "AHM App Running",
+        "appControlMsg": "AHM App Control Message Received",
+        "serviceUpMsg": "AHM Service Up",
+        "serviceDownMsg": "AHM Service Down",
+        "serviceDisabledMsg": "AHM Service Disabled"
+    },
+    "paramSupported": {
+        "defaultSearchType": "restClient",
+        "requestContentTypes": ["urlencoded", "json"],
+        "acceptContentTypes": ["application/json", "application/xml", "text/plain", "text/csv"],
+        "defaultMediaTypes": ["application/json", "application/xml"],
+        "textMediaTypes": ["text/plain", "text/csv"],
+        "supportedSolrQueryParams": [
+            "q", "start", "rows", "app-id", "debug", "defType", "role","user-agent", "cumbId",
+            "appContext","json.wrf","expand", "memberId", "goalId", "activityId", "instance", "email", "password"
+        ],
+        "integerQueryParams": ["start", "rows"],
+        "maxStart": 200,
+        "maxRows": 100
+    },
+    "clients": {
+        "appIdQueryParam": "app-id",
+        "appIdHeader": "X-Application-Id",
+        "acceptedAppIds": [
+            "globalnav", "esupport", "jmeter", "testing"
+        ]
+    },
+    "nodeCacheTimeOut":14400,
+    "mahHost": {
+        "auth": {
+            "user": "",
+            "pass": ""
+        },
+        "host": "mahbz.azprd.ahmcert.com",
+        "timeout": 1000,
+        "baseQueryPath": "MAHBusinessServices/V1"
+    },
+    "logging": {
+        "logLevel": "info",
+        "logDir": "logs",
+        "logCount": 10
+    },
+    "statsd": {
+        "host": "localhost",
+        "port": 8125,
+        "prefix": "search.",
+        "mock": false
+    },
+    "routeValidation": {
+        "reqRouteDefKeys": ["skip", "basePath", "routeModules", "name"],
+        "reqRouteModDefKeys": ["path", "module"],
+        "optRouteModDefKeys": ["pathParams", "queryDefs", "searchType"],
+        "reqRouteModKeys": ["name", "path", "routeHandlers"],
+        "optRouteModKeys": ["middleware", "pathParams"]
+    },
+    "mock":{
+        "response":
+            {
+                "statusCode":400,
+                "statusMassage":"Member Not Found!"
+            }
+    },
+    "retry": {
+        "defaultCount": 3,
+        "defaultFactor": 1.25,
+        "defaultInterval": 200
+    },
+    "dbConfig": {
+        "user": "phruser",
+        "password": "phruser",
+        "server": "172.20.11.54",
+        "port": 55407,
+        "database": "DEVMAH"
+    },
+    "esbClient":{
+        "wsdl": "http://esbphr.azprd.ahmcert.com:6666/PHRPortal/ActiveServiceFacade?wsdl"
+    }
+}
