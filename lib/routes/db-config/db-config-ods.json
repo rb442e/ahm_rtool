@@ -1,12 +1,12 @@
 {
   "dev": {
-    "user": "COMMENG_USER",
-    "password": "welcome",
-    "connectString": "//azaupprdods-scan.activehealth.loc:1521/azodsp_oltp.activehealth.net"
+    "user": "xxxxxx",
+    "password": "xxxxx",
+    "connectString": "//http:xyz.com/xyz"
   },
   "prod": {
-    "user": "COMMENG_USER",
-    "password": "welcome",
-    "connectString": "//azaupprdods-scan.activehealth.loc:1521/azodsp_oltp.activehealth.net"
+    "user": "xxxx",
+    "password": "xxxx",
+    "connectString": "//http:xyz.com/xyz"
   }
 }
